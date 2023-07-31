@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0671A92A52A5330092FF2B /* UpcomingBillsHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0671A82A52A5330092FF2B /* UpcomingBillsHeaderCollectionReusableView.swift */; };
+		5A0671AB2A52D9F30092FF2B /* ScheduledSubsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0671AA2A52D9F30092FF2B /* ScheduledSubsCollectionViewCell.swift */; };
+		5A574B382A5EB171009E84D0 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A574B372A5EB171009E84D0 /* LineView.swift */; };
+		5A689F642A45A51100139276 /* CustomTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A689F632A45A51100139276 /* CustomTabsView.swift */; };
+		5A689F672A47299400139276 /* SubscribedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A689F662A47299400139276 /* SubscribedTableViewCell.swift */; };
+		5A7935A72A49ACAB00F20E95 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7935A62A49ACAB00F20E95 /* CustomTabBarViewController.swift */; };
+		5AD589342A41920A00DC86DE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD589332A41920A00DC86DE /* CustomTextField.swift */; };
+		5AD589382A41AE2500DC86DE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD589372A41AE2500DC86DE /* SignUpViewController.swift */; };
+		5AD6BAD62A36EAB400BE860F /* LogoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6BAD52A36EAB400BE860F /* LogoTitleView.swift */; };
+		5AD6BAD82A3701F900BE860F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6BAD72A3701F900BE860F /* CustomButton.swift */; };
+		5AD8B3C42A44C36000E76EDB /* EclipseIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8B3C32A44C36000E76EDB /* EclipseIndicator.swift */; };
+		5ADA34FF2A553579002919DB /* AddSubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA34FE2A553579002919DB /* AddSubsViewController.swift */; };
+		5ADA35012A55531D002919DB /* CustomShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA35002A55531D002919DB /* CustomShapeView.swift */; };
+		5ADE87852A4EFE0B00306A70 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADE87842A4EFE0B00306A70 /* DaysCollectionViewCell.swift */; };
+		5ADE9C762A42BFEA00F2076C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADE9C752A42BFEA00F2076C /* UIViewExtension.swift */; };
+		5ADE9C782A42C03E00F2076C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADE9C772A42C03E00F2076C /* CustomView.swift */; };
+		5AE238C72A4218C70008ADC2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE238C62A4218C70008ADC2 /* SignInViewController.swift */; };
+		5AE238CA2A4218EC0008ADC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE238C92A4218EC0008ADC2 /* HomeViewController.swift */; };
+		5AE3E6BB2A4AC999007D313A /* CreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3E6BA2A4AC999007D313A /* CreditCardsViewController.swift */; };
+		5AE3E6BD2A4AC9AE007D313A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3E6BC2A4AC9AE007D313A /* CalendarViewController.swift */; };
+		5AE3E6BF2A4AC9B8007D313A /* BudgetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3E6BE2A4AC9B8007D313A /* BudgetsViewController.swift */; };
+		5AE3E6C12A4B016B007D313A /* CustomTitleSubtitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3E6C02A4B016A007D313A /* CustomTitleSubtitleButton.swift */; };
+		5AE4C3EF2A32F4FA001E4426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C3EE2A32F4FA001E4426 /* AppDelegate.swift */; };
+		5AE4C3F12A32F4FA001E4426 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C3F02A32F4FA001E4426 /* SceneDelegate.swift */; };
+		5AE4C3F32A32F4FA001E4426 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C3F22A32F4FA001E4426 /* WelcomeViewController.swift */; };
+		5AE4C3F82A32F4FC001E4426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4C3F72A32F4FC001E4426 /* Assets.xcassets */; };
+		5AE4C3FB2A32F4FC001E4426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4C3F92A32F4FC001E4426 /* LaunchScreen.storyboard */; };
+		5AE4C4062A32F4FC001E4426 /* TrackizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C4052A32F4FC001E4426 /* TrackizerTests.swift */; };
+		5AE4C4102A32F4FC001E4426 /* TrackizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C40F2A32F4FC001E4426 /* TrackizerUITests.swift */; };
+		5AE4C4122A32F4FC001E4426 /* TrackizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C4112A32F4FC001E4426 /* TrackizerUITestsLaunchTests.swift */; };
+		5AE97D2E2A406D23009F1DA7 /* SocialAccountSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE97D2D2A406D23009F1DA7 /* SocialAccountSignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE4C4022A32F4FC001E4426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE4C3E32A32F4FA001E4426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE4C3EA2A32F4FA001E4426;
+			remoteInfo = Trackizer;
+		};
+		5AE4C40C2A32F4FC001E4426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE4C3E32A32F4FA001E4426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE4C3EA2A32F4FA001E4426;
+			remoteInfo = Trackizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0671A82A52A5330092FF2B /* UpcomingBillsHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingBillsHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		5A0671AA2A52D9F30092FF2B /* ScheduledSubsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledSubsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A574B372A5EB171009E84D0 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		5A689F632A45A51100139276 /* CustomTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabsView.swift; sourceTree = "<group>"; };
+		5A689F662A47299400139276 /* SubscribedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribedTableViewCell.swift; sourceTree = "<group>"; };
+		5A7935A62A49ACAB00F20E95 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		5AD589332A41920A00DC86DE /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5AD589372A41AE2500DC86DE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5AD6BAD52A36EAB400BE860F /* LogoTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTitleView.swift; sourceTree = "<group>"; };
+		5AD6BAD72A3701F900BE860F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5AD8B3C32A44C36000E76EDB /* EclipseIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EclipseIndicator.swift; sourceTree = "<group>"; };
+		5ADA34FE2A553579002919DB /* AddSubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubsViewController.swift; sourceTree = "<group>"; };
+		5ADA35002A55531D002919DB /* CustomShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeView.swift; sourceTree = "<group>"; };
+		5ADE87842A4EFE0B00306A70 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
+		5ADE9C752A42BFEA00F2076C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5ADE9C772A42C03E00F2076C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5AE238C62A4218C70008ADC2 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5AE238C92A4218EC0008ADC2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5AE3E6BA2A4AC999007D313A /* CreditCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsViewController.swift; sourceTree = "<group>"; };
+		5AE3E6BC2A4AC9AE007D313A /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		5AE3E6BE2A4AC9B8007D313A /* BudgetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsViewController.swift; sourceTree = "<group>"; };
+		5AE3E6C02A4B016A007D313A /* CustomTitleSubtitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTitleSubtitleButton.swift; sourceTree = "<group>"; };
+		5AE4C3EB2A32F4FA001E4426 /* Trackizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE4C3EE2A32F4FA001E4426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AE4C3F02A32F4FA001E4426 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AE4C3F22A32F4FA001E4426 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5AE4C3F72A32F4FC001E4426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE4C3FA2A32F4FC001E4426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AE4C3FC2A32F4FC001E4426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE4C4012A32F4FC001E4426 /* TrackizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE4C4052A32F4FC001E4426 /* TrackizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerTests.swift; sourceTree = "<group>"; };
+		5AE4C40B2A32F4FC001E4426 /* TrackizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE4C40F2A32F4FC001E4426 /* TrackizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerUITests.swift; sourceTree = "<group>"; };
+		5AE4C4112A32F4FC001E4426 /* TrackizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AE97D2D2A406D23009F1DA7 /* SocialAccountSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAccountSignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE4C3E82A32F4FA001E4426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE4C3FE2A32F4FC001E4426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE4C4082A32F4FC001E4426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A689F652A4728FD00139276 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5A689F662A47299400139276 /* SubscribedTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		5AD589352A41ADF400DC86DE /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5AD589372A41AE2500DC86DE /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		5AD589362A41ADFD00DC86DE /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5AE238C62A4218C70008ADC2 /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5ADA34FD2A553549002919DB /* AddSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA34FE2A553579002919DB /* AddSubsViewController.swift */,
+			);
+			path = AddSubscription;
+			sourceTree = "<group>";
+		};
+		5ADE87832A4EFDDB00306A70 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5ADE87842A4EFE0B00306A70 /* DaysCollectionViewCell.swift */,
+				5A0671A82A52A5330092FF2B /* UpcomingBillsHeaderCollectionReusableView.swift */,
+				5A0671AA2A52D9F30092FF2B /* ScheduledSubsCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		5ADE9C742A42BFD300F2076C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ADE9C752A42BFEA00F2076C /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5AE238C82A4218D80008ADC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5A689F652A4728FD00139276 /* TableViewCell */,
+				5AE238C92A4218EC0008ADC2 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AE3E6B72A4AC963007D313A /* Budgets */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3E6BE2A4AC9B8007D313A /* BudgetsViewController.swift */,
+			);
+			path = Budgets;
+			sourceTree = "<group>";
+		};
+		5AE3E6B82A4AC96C007D313A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				5ADE87832A4EFDDB00306A70 /* CollectionViewCells */,
+				5AE3E6BC2A4AC9AE007D313A /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		5AE3E6B92A4AC973007D313A /* CreditCards */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3E6BA2A4AC999007D313A /* CreditCardsViewController.swift */,
+			);
+			path = CreditCards;
+			sourceTree = "<group>";
+		};
+		5AE4C3E22A32F4FA001E4426 = {
+			isa = PBXGroup;
+			children = (
+				5AE4C3ED2A32F4FA001E4426 /* Trackizer */,
+				5AE4C4042A32F4FC001E4426 /* TrackizerTests */,
+				5AE4C40E2A32F4FC001E4426 /* TrackizerUITests */,
+				5AE4C3EC2A32F4FA001E4426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE4C3EC2A32F4FA001E4426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4C3EB2A32F4FA001E4426 /* Trackizer.app */,
+				5AE4C4012A32F4FC001E4426 /* TrackizerTests.xctest */,
+				5AE4C40B2A32F4FC001E4426 /* TrackizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE4C3ED2A32F4FA001E4426 /* Trackizer */ = {
+			isa = PBXGroup;
+			children = (
+				5AE56C722A568D470085BA25 /* CustomTabBar */,
+				5ADA34FD2A553549002919DB /* AddSubscription */,
+				5AE3E6B92A4AC973007D313A /* CreditCards */,
+				5AE3E6B82A4AC96C007D313A /* Calendar */,
+				5AE3E6B72A4AC963007D313A /* Budgets */,
+				5ADE9C742A42BFD300F2076C /* Extensions */,
+				5AE238C82A4218D80008ADC2 /* Home */,
+				5AD589362A41ADFD00DC86DE /* SignIn */,
+				5AD589352A41ADF400DC86DE /* SignUp */,
+				5AE97D302A40D10B009F1DA7 /* SocialAccountSignUp */,
+				5AE97D2F2A40CA1E009F1DA7 /* Welcome */,
+				5AE4C3EE2A32F4FA001E4426 /* AppDelegate.swift */,
+				5AE4C3F02A32F4FA001E4426 /* SceneDelegate.swift */,
+				5AE4C3F72A32F4FC001E4426 /* Assets.xcassets */,
+				5AE4C3F92A32F4FC001E4426 /* LaunchScreen.storyboard */,
+				5AE4C3FC2A32F4FC001E4426 /* Info.plist */,
+				5AD6BAD52A36EAB400BE860F /* LogoTitleView.swift */,
+				5AD6BAD72A3701F900BE860F /* CustomButton.swift */,
+				5AD589332A41920A00DC86DE /* CustomTextField.swift */,
+				5ADE9C772A42C03E00F2076C /* CustomView.swift */,
+				5AD8B3C32A44C36000E76EDB /* EclipseIndicator.swift */,
+				5A689F632A45A51100139276 /* CustomTabsView.swift */,
+				5AE3E6C02A4B016A007D313A /* CustomTitleSubtitleButton.swift */,
+				5ADA35002A55531D002919DB /* CustomShapeView.swift */,
+				5A574B372A5EB171009E84D0 /* LineView.swift */,
+			);
+			path = Trackizer;
+			sourceTree = "<group>";
+		};
+		5AE4C4042A32F4FC001E4426 /* TrackizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4C4052A32F4FC001E4426 /* TrackizerTests.swift */,
+			);
+			path = TrackizerTests;
+			sourceTree = "<group>";
+		};
+		5AE4C40E2A32F4FC001E4426 /* TrackizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4C40F2A32F4FC001E4426 /* TrackizerUITests.swift */,
+				5AE4C4112A32F4FC001E4426 /* TrackizerUITestsLaunchTests.swift */,
+			);
+			path = TrackizerUITests;
+			sourceTree = "<group>";
+		};
+		5AE56C722A568D470085BA25 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5A7935A62A49ACAB00F20E95 /* CustomTabBarViewController.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		5AE97D2F2A40CA1E009F1DA7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4C3F22A32F4FA001E4426 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		5AE97D302A40D10B009F1DA7 /* SocialAccountSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5AE97D2D2A406D23009F1DA7 /* SocialAccountSignUpViewController.swift */,
+			);
+			path = SocialAccountSignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE4C3EA2A32F4FA001E4426 /* Trackizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE4C4152A32F4FC001E4426 /* Build configuration list for PBXNativeTarget "Trackizer" */;
+			buildPhases = (
+				5AE4C3E72A32F4FA001E4426 /* Sources */,
+				5AE4C3E82A32F4FA001E4426 /* Frameworks */,
+				5AE4C3E92A32F4FA001E4426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trackizer;
+			productName = Trackizer;
+			productReference = 5AE4C3EB2A32F4FA001E4426 /* Trackizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE4C4002A32F4FC001E4426 /* TrackizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE4C4182A32F4FC001E4426 /* Build configuration list for PBXNativeTarget "TrackizerTests" */;
+			buildPhases = (
+				5AE4C3FD2A32F4FC001E4426 /* Sources */,
+				5AE4C3FE2A32F4FC001E4426 /* Frameworks */,
+				5AE4C3FF2A32F4FC001E4426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE4C4032A32F4FC001E4426 /* PBXTargetDependency */,
+			);
+			name = TrackizerTests;
+			productName = TrackizerTests;
+			productReference = 5AE4C4012A32F4FC001E4426 /* TrackizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE4C40A2A32F4FC001E4426 /* TrackizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE4C41B2A32F4FC001E4426 /* Build configuration list for PBXNativeTarget "TrackizerUITests" */;
+			buildPhases = (
+				5AE4C4072A32F4FC001E4426 /* Sources */,
+				5AE4C4082A32F4FC001E4426 /* Frameworks */,
+				5AE4C4092A32F4FC001E4426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE4C40D2A32F4FC001E4426 /* PBXTargetDependency */,
+			);
+			name = TrackizerUITests;
+			productName = TrackizerUITests;
+			productReference = 5AE4C40B2A32F4FC001E4426 /* TrackizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE4C3E32A32F4FA001E4426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5AE4C3EA2A32F4FA001E4426 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5AE4C4002A32F4FC001E4426 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5AE4C3EA2A32F4FA001E4426;
+					};
+					5AE4C40A2A32F4FC001E4426 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5AE4C3EA2A32F4FA001E4426;
+					};
+				};
+			};
+			buildConfigurationList = 5AE4C3E62A32F4FA001E4426 /* Build configuration list for PBXProject "Trackizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE4C3E22A32F4FA001E4426;
+			productRefGroup = 5AE4C3EC2A32F4FA001E4426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE4C3EA2A32F4FA001E4426 /* Trackizer */,
+				5AE4C4002A32F4FC001E4426 /* TrackizerTests */,
+				5AE4C40A2A32F4FC001E4426 /* TrackizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE4C3E92A32F4FA001E4426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE4C3FB2A32F4FC001E4426 /* LaunchScreen.storyboard in Resources */,
+				5AE4C3F82A32F4FC001E4426 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE4C3FF2A32F4FC001E4426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE4C4092A32F4FC001E4426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE4C3E72A32F4FA001E4426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3E6BD2A4AC9AE007D313A /* CalendarViewController.swift in Sources */,
+				5AD589342A41920A00DC86DE /* CustomTextField.swift in Sources */,
+				5AE3E6C12A4B016B007D313A /* CustomTitleSubtitleButton.swift in Sources */,
+				5AE97D2E2A406D23009F1DA7 /* SocialAccountSignUpViewController.swift in Sources */,
+				5A574B382A5EB171009E84D0 /* LineView.swift in Sources */,
+				5ADE87852A4EFE0B00306A70 /* DaysCollectionViewCell.swift in Sources */,
+				5A689F672A47299400139276 /* SubscribedTableViewCell.swift in Sources */,
+				5ADE9C762A42BFEA00F2076C /* UIViewExtension.swift in Sources */,
+				5AD589382A41AE2500DC86DE /* SignUpViewController.swift in Sources */,
+				5AD6BAD62A36EAB400BE860F /* LogoTitleView.swift in Sources */,
+				5AE4C3F32A32F4FA001E4426 /* WelcomeViewController.swift in Sources */,
+				5A0671A92A52A5330092FF2B /* UpcomingBillsHeaderCollectionReusableView.swift in Sources */,
+				5AE238CA2A4218EC0008ADC2 /* HomeViewController.swift in Sources */,
+				5A0671AB2A52D9F30092FF2B /* ScheduledSubsCollectionViewCell.swift in Sources */,
+				5ADA35012A55531D002919DB /* CustomShapeView.swift in Sources */,
+				5AE238C72A4218C70008ADC2 /* SignInViewController.swift in Sources */,
+				5AE3E6BB2A4AC999007D313A /* CreditCardsViewController.swift in Sources */,
+				5AE4C3EF2A32F4FA001E4426 /* AppDelegate.swift in Sources */,
+				5AD8B3C42A44C36000E76EDB /* EclipseIndicator.swift in Sources */,
+				5ADE9C782A42C03E00F2076C /* CustomView.swift in Sources */,
+				5A7935A72A49ACAB00F20E95 /* CustomTabBarViewController.swift in Sources */,
+				5ADA34FF2A553579002919DB /* AddSubsViewController.swift in Sources */,
+				5AE4C3F12A32F4FA001E4426 /* SceneDelegate.swift in Sources */,
+				5AD6BAD82A3701F900BE860F /* CustomButton.swift in Sources */,
+				5AE3E6BF2A4AC9B8007D313A /* BudgetsViewController.swift in Sources */,
+				5A689F642A45A51100139276 /* CustomTabsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE4C3FD2A32F4FC001E4426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE4C4062A32F4FC001E4426 /* TrackizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE4C4072A32F4FC001E4426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE4C4122A32F4FC001E4426 /* TrackizerUITestsLaunchTests.swift in Sources */,
+				5AE4C4102A32F4FC001E4426 /* TrackizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE4C4032A32F4FC001E4426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE4C3EA2A32F4FA001E4426 /* Trackizer */;
+			targetProxy = 5AE4C4022A32F4FC001E4426 /* PBXContainerItemProxy */;
+		};
+		5AE4C40D2A32F4FC001E4426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE4C3EA2A32F4FA001E4426 /* Trackizer */;
+			targetProxy = 5AE4C40C2A32F4FC001E4426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE4C3F92A32F4FC001E4426 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE4C3FA2A32F4FC001E4426 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE4C4132A32F4FC001E4426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE4C4142A32F4FC001E4426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE4C4162A32F4FC001E4426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXN457738Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.Trackizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE4C4172A32F4FC001E4426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXN457738Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.Trackizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE4C4192A32F4FC001E4426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXN457738Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.TrackizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trackizer";
+			};
+			name = Debug;
+		};
+		5AE4C41A2A32F4FC001E4426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXN457738Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.TrackizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trackizer";
+			};
+			name = Release;
+		};
+		5AE4C41C2A32F4FC001E4426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXN457738Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.TrackizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trackizer;
+			};
+			name = Debug;
+		};
+		5AE4C41D2A32F4FC001E4426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RXN457738Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.TrackizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trackizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE4C3E62A32F4FA001E4426 /* Build configuration list for PBXProject "Trackizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE4C4132A32F4FC001E4426 /* Debug */,
+				5AE4C4142A32F4FC001E4426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE4C4152A32F4FC001E4426 /* Build configuration list for PBXNativeTarget "Trackizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE4C4162A32F4FC001E4426 /* Debug */,
+				5AE4C4172A32F4FC001E4426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE4C4182A32F4FC001E4426 /* Build configuration list for PBXNativeTarget "TrackizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE4C4192A32F4FC001E4426 /* Debug */,
+				5AE4C41A2A32F4FC001E4426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE4C41B2A32F4FC001E4426 /* Build configuration list for PBXNativeTarget "TrackizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE4C41C2A32F4FC001E4426 /* Debug */,
+				5AE4C41D2A32F4FC001E4426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE4C3E32A32F4FA001E4426 /* Project object */;
+}
